@@ -1,10 +1,10 @@
-# AI Powered Product Generator
+# AI Powered Content Generator for Product Cards
 
 ## 📌 Overview
 
-AI Product Generator is a full-stack web application that generates product card details (title, description, and tags) using AI.
+AI Powered Content Generator for Product Cards is a web application using React.js + RESTAPI that generates product card details (title, description, and tags) using AI.
 
-Users can input a product name and category, and the system dynamically generates structured product content and displays it in a clean, styled UI.
+Users can input a product name and category, and the system dynamically generates structured product content and displays it in a clean, styled Card UI.
 
 ---
 
@@ -24,6 +24,7 @@ Users can input a product name and category, and the system dynamically generate
 ### 🔹 AI Integration
 
 * REST API-based AI content generation
+* OpenRouter (API) 
 
 ---
 
@@ -51,7 +52,7 @@ ai-product-generator/
 ├── server/                     # Backend (Node + Express)
 │   ├── index.js
 │   ├── package.json
-│   ├── .env                   # Environment variables (NOT committed)
+│   ├── .env                   # Environment variables
 │   └── node_modules/
 │
 ├── src/                       # Frontend (React)
@@ -139,13 +140,13 @@ AI_API_KEY=your_api_key_here
 
 ```bash
 cd server
-npm start
+node index.js
 ```
 
 Server runs at:
 
 ```
-http://localhost:5000
+Server running on port 5000
 ```
 
 ---
