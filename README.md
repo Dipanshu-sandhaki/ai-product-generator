@@ -6,6 +6,10 @@ AI Powered Content Generator for Product Cards is a web application using React.
 
 Users can input a product name and category, and the system dynamically generates structured product content and displays it in a clean, styled Card UI.
 
+## 🎥 Demo Video
+
+[Watch Demo Video](https://drive.google.com/file/d/1XWxmhuCwp5pDXoI_yjeiY5hH6VdI_DFZ/view?usp=drivesdk)
+
 ---
 
 ## 🛠 Tech Stack
